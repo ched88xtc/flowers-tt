@@ -1,0 +1,43 @@
+.flowersListWrapper {
+	margin: 0 auto;
+	max-width: 500px;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ececec;
+}
+
+.flowersList {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.flowersListTitle {
+	font-weight: 700;
+}
+
+.flowersElement {
+	padding: 10px;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	transition: border 300ms;
+}
+
+.flowersUncheckedElement {
+	background-color: #cecece;
+}
+
+.flowersCheckedElement {
+	background-color: #92ff7b;
+}
+
+.flowersCheckedElement:hover {
+	border: 2px solid black;
+}
+
+.flowersUncheckedElement:hover {
+	border: 2px solid black;
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Route, Link, } from "react-router-dom";
+import {FlowersList} from "./components/FlowerList/FlowersList";
+import {FlowersForm} from "./components/FlowerForm/FlowersForm";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Route exact path="/">
+        <FlowersForm />
+        <div className="flowersListLinkWrapper">
+          <Link to="/list">List</Link>
+        </div>
+      </Route>
+      <Route path="/list">
+        <div className="flowersFormLinkWrapper">
+          <Link to="/">Back to form</Link>
+        </div>
+        <FlowersList />
+      </Route>
     </div>
   );
 }
