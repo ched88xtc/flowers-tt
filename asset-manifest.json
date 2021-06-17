@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.07d1bebf.chunk.css",
-    "main.js": "/build/static/js/main.633cffce.chunk.js",
-    "main.js.map": "/build/static/js/main.633cffce.chunk.js.map",
-    "runtime-main.js": "/build/static/js/runtime-main.4bacca0c.js",
-    "runtime-main.js.map": "/build/static/js/runtime-main.4bacca0c.js.map",
-    "static/js/2.39999c61.chunk.js": "/build/static/js/2.39999c61.chunk.js",
-    "static/js/2.39999c61.chunk.js.map": "/build/static/js/2.39999c61.chunk.js.map",
-    "index.html": "/build/index.html",
-    "static/css/main.07d1bebf.chunk.css.map": "/build/static/css/main.07d1bebf.chunk.css.map",
-    "static/js/2.39999c61.chunk.js.LICENSE.txt": "/build/static/js/2.39999c61.chunk.js.LICENSE.txt",
-    "static/media/FlowersForm.css": "/build/static/media/background.d5a9a8a8.jpg"
+    "main.css": "/flowers-tt/static/css/main.878ceaae.chunk.css",
+    "main.js": "/flowers-tt/static/js/main.633cffce.chunk.js",
+    "main.js.map": "/flowers-tt/static/js/main.633cffce.chunk.js.map",
+    "runtime-main.js": "/flowers-tt/static/js/runtime-main.853fc85c.js",
+    "runtime-main.js.map": "/flowers-tt/static/js/runtime-main.853fc85c.js.map",
+    "static/js/2.39999c61.chunk.js": "/flowers-tt/static/js/2.39999c61.chunk.js",
+    "static/js/2.39999c61.chunk.js.map": "/flowers-tt/static/js/2.39999c61.chunk.js.map",
+    "index.html": "/flowers-tt/index.html",
+    "static/css/main.878ceaae.chunk.css.map": "/flowers-tt/static/css/main.878ceaae.chunk.css.map",
+    "static/js/2.39999c61.chunk.js.LICENSE.txt": "/flowers-tt/static/js/2.39999c61.chunk.js.LICENSE.txt",
+    "static/media/FlowersForm.css": "/flowers-tt/static/media/background.d5a9a8a8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4bacca0c.js",
+    "static/js/runtime-main.853fc85c.js",
     "static/js/2.39999c61.chunk.js",
-    "static/css/main.07d1bebf.chunk.css",
+    "static/css/main.878ceaae.chunk.css",
     "static/js/main.633cffce.chunk.js"
   ]
 }
